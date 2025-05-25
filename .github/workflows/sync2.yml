@@ -1,0 +1,26 @@
+名称：同步叉
+
+
+  日程安排输入：
+  
+  workflow_dispatch:     #  也可以手动触发
+
+工作:
+  同步输入：
+    运行于：ubuntu-latest
+
+      - 名称: 结账
+        使用：actions/checkout@v3
+
+      - 名称: 设置Git身份
+        运行： |
+          git 配置全局用户名称 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - 名称: 添加上游
+        运行： |
+          git remote add upstream https://github.com/LibreSpark/LibreTV.git
+          git 从上游获取
+          git checkout main
+          git 合并 upstream/main
+          git 推送 origin main
