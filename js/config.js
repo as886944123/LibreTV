@@ -109,10 +109,6 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    ruyi: {
-    api: 'https://suoniapi.com/api.php/provide/vod/?ac=list', 
-    name: '索尼资源'
-    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
