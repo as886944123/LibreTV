@@ -110,8 +110,7 @@ const API_SITES = {
         name: 'iKun资源'
     },
     sn: {
-    api: 'https://suoniapi.com/api.php/provide/vod',
-    detail: 'https://suoniapi.com', 
+    api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml', 
     name: '索尼资源'
     },
     testSource: {
