@@ -25,7 +25,6 @@ const API_SITES = {
     maotai: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台资源',
-        detail: 'https://mtzy5.com/',
     },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
