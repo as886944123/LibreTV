@@ -27,8 +27,8 @@ const API_SITES = {
         name: '茅台资源',
     },
     yayazy: {
-        api: 'https://xsd.sdzyapi.com/api.php/provide/vod',
-        name: 'YY资源',
+        api: 'https://cj.yayazy.net/api.php/provide/vod',
+        name: '鸭鸭资源',
     },
     Lzizy: {
         api: 'https://cj.lziapi.com/api.php/provide/vod',
