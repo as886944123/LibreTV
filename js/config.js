@@ -26,6 +26,18 @@ const API_SITES = {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台资源',
     },
+    yayazy: {
+        api: 'https://cj.yayazy.net/api.php/provide/vod',
+        name: '鸭鸭资源',
+    },
+    Lzizy: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源',
+    },
+    suonizy: {
+        api: 'https://suoniapi.com/api.php/provide/vod',
+        name: '索尼资源',
+    },
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
